@@ -16,6 +16,7 @@ RUN apt-get update -qq && install2.r --error \
     ggplot2 \
     reshape2 \
     docopt 
+
 RUN Rscript -e "install.packages('kableExtra')"
 
 # install python3
